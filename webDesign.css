@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 7px;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6rem;
+    text-align: center;
+    margin: auto;
+    line-height: 1.5;
+    background-color: #333;
+}
+a{
+    text-decoration: none;
+}
+p{
+    padding: 1.6rem 0;
+}
+.content{
+    color: #eaeaea; 
+    padding: 3.2rem 0;  
+}
+img{
+    width: 100%;
+    height: auto;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+/*Header*/
+header{
+    height: 45rem;
+}
+header .bg-image{
+    position: absolute;
+    opacity: 0.6;
+    height: 45rem;
+    background-image: url(İmage/bg.jpeg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    z-index: -1;
+}
+header h1{
+    padding: 11rem;
+    padding-bottom: 0;   
+}
+.btn{
+    display: inline-block;
+    border: 1px solid #666;
+    color: #fff;
+    background-color: #333;
+    padding: 1.6rem 3.2rem;
+    margin: .5rem 0;
+    opacity: 1;
+    
+}
+.btn:hover{
+    color: #333;
+    background-color: #eaeaea;
+}
+/*main*/
+
+.section-a{
+    padding: 3.2rem 0;
+    background-color: #eaeaea;
+    color: #333;
+}
+.text{
+    padding: 3.2rem 0;
+    background-color: #eaeaea;
+    color: #333;
+}
+.section-b{
+    margin: 2rem;
+}
+h3{
+    margin-bottom: 1.5rem;
+}
+
+/*section-c*/
+.section-c{
+    margin-top: 5rem;
+}
+.container1{
+    color: #333;
+    background-color: #eaeaea;
+    padding: 5rem ;
+}
+.container2{
+    padding: 4rem ;
+    background-color: #2690d4;
+    color: #eaeaea;
+}
+.container3{
+    padding: 4rem ;
+    background-color: #666;
+    color: #eaeaea;
+}
+/*section-d*/
+.footer{
+    background-color: #000;
+    color: #eaeaea;
+    padding: 4rem;
+}
+.footer a{
+    color: #2690d4;
+}
+
+/*Responsive*/
+@media screen and (min-width:800px){
+html{
+    font-size: 9px;
+}
+}
+@media screen and (min-width:1200px){
+.section-b{
+    width: 28%;
+    margin: 1%;
+    display: inline-block;
+}
+.fix{
+    width: 50%;
+    float: left;
+}
+html{
+    font-size: 12px;
+}
+}
